@@ -19,7 +19,7 @@ export const exploreWorlds = [
     imgUrl: '/planet-04.png',
     title: 'Proven Results',
   },
- 
+
 ];
 
 export const startingFeatures = [
@@ -27,7 +27,6 @@ export const startingFeatures = [
   'Enroll now with ease using whatsapp or call',
   'Focus on growth, enjoy learning, and celebrate progress',
 ];
-
 
 export const newFeatures = [
   {
@@ -43,7 +42,6 @@ export const newFeatures = [
       'With our latest approach, classes feel more interactive, making concepts clearer and boosting student confidence like never before.',
   },
 ];
-
 
 export const insights = [
   {
