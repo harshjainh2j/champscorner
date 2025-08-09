@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { socials } from '../constants';
+import { motion } from "framer-motion";
+import { socials } from "../constants";
 
-import styles from '../styles';
-import { footerVariants } from '../utils/motion';
+import styles from "../styles";
+import { footerVariants } from "../utils/motion";
 
 const Footer = () => (
   <motion.footer
@@ -19,15 +19,21 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Enroll Now In Champs Corner
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+        <button
+          type="button"
+          className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
+        >
           <img
             src="/headset.svg"
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
-         <a href="tel:9109919775" className="font-normal text-[16px] text-white">
-  Call at 9109919775
-</a>
+          <a
+            href="tel:9109919775"
+            className="font-normal text-[16px] text-white"
+          >
+            Call at 9109919775
+          </a>
         </button>
       </div>
 
