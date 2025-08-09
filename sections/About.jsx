@@ -16,26 +16,27 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaversus" textStyles="text-center" />
+      <TypingText title="| About Champs Corner" textStyles="text-center" />
 
-      <motion.p
-        variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
-      >
-        <span className="font-extrabold text-white">Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{' '}
-        <span className="font-extrabold text-white">
-          madness of the metaverse
-        </span>{' '}
-        of today, using only{' '}
-        <span className="font-extrabold text-white">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{' '}
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
-      </motion.p>
+    <motion.p
+  variants={fadeIn('up', 'tween', 0.2, 1)}
+  className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+>
+  Welcome to <span className="font-extrabold text-white">Champs Corner</span>, 
+  the most renowned coaching institute in Om City, proudly serving the community 
+  of <span className="font-extrabold text-white">Champa, Chhattisgarh</span>. 
+  Known for our excellence and trusted by hundreds of parents, we provide 
+  top-quality tuition classes for students from Nursery to Class 6.  
+  With highly experienced teachers, innovative teaching methods, and a proven 
+  track record of success, we nurture not only academic skills but also 
+  confidence and curiosity in every child.  
+  At <span className="font-extrabold text-white">Champs Corner</span>, 
+  education isn’t just about learning — it’s about shaping bright futures.  
+  Join the ranks of our proud achievers and experience why we’re the 
+  <span className="font-extrabold text-white"> #1 choice</span> for primary 
+  education in the region.  
+</motion.p>
+
 
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}

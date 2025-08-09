@@ -12,19 +12,19 @@ const Hero = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex flex-col`}
+      className={`${styles.innerWidth} mx-auto flex flex-col mt-20`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          Metaverse
+          Champs
         </motion.h1>
         <motion.div
           variants={textVariant(1.2)}
           className="flex flex-row justify-center items-center"
         >
-          <h1 className={styles.heroHeading}>Ma</h1>
-          <div className={styles.heroDText} />
-          <h1 className={styles.heroHeading}>Ness</h1>
+          <h1 className={styles.heroHeading}>Cor</h1>
+      
+          <h1 className={styles.heroHeading}>ner</h1>
         </motion.div>
       </div>
 

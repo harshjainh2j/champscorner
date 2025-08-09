@@ -21,18 +21,21 @@ const Feedback = () => (
         <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
-            Samantha
+            Yashi Jain
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Founder Metaverus
+            Founder Champs Corner
           </p>
         </div>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “With the development of today's technology, metaverse is very
-          useful for today's work, or can be called web 3.0. by using
-          metaverse you can use it as anything”
-        </p>
+  <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
+  Founded by Yashi Jain, Champs Corner is built on the vision of providing
+  young learners with the perfect blend of academic excellence and joyful
+  learning, Yashi has created an environment where
+  every child feels valued, confident, and inspired to achieve their best.
+</p>
+
+
       </motion.div>
 
       <motion.div

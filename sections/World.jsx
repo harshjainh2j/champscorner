@@ -16,15 +16,13 @@ const World = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
 
-      <TypingText title="| People on the World" textStyles="text-center" />
-      <TitleText
-        title={(
-          <>Track friends around you and invite them to play together in the same
-            world
-          </>
-        )}
-        textStyles="text-center"
-      />
+     <TypingText title="| Champs Corner Group" textStyles="text-center" />
+<TitleText
+  title={(
+    <>Connect with us and get your child the best learning experience of the world</>
+  )}
+  textStyles="text-center"
+/>
 
       <motion.div
         variants={fadeIn('up', 'tween', 0.3, 1)}
